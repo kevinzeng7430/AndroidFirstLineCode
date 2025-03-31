@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="chart2"> Chart 2</string>
+    <string name="chart3"> Chart 3 ListView</string>
+    <string name="chart3_1"> Chart 3 RecyclerView</string>
+    <string name="chart3_2"> Chart 3 RecyclerView2</string>
+    <string name="chart3_3"> Chart 3 RecyclerView3</string>
+    <string name="chart3_4"> Chart 3 UIBestPractice</string>
+    <string name="chart4_1"> Chart 4 BasicChartFour</string>
+    <string name="chart4_2"> Chart 4 News</string>
+    <string name="chart6"> Chart 6 File</string>
+    <string name="chart6_1"> Chart 6 SQL</string>
+    <string name="chart7_1"> Chart 7 Contacts</string>
+    <string name="chart10"> Chart 10 Service</string>
+    <string name="chart10_1"> Chart 10 ServiceMSG</string>
+</resources>

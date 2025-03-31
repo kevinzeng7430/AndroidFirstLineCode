@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/button_chart2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart2" />
+    <Button
+        android:id="@+id/button_chart3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart3" />
+    <Button
+        android:id="@+id/button_chart3_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart3_1" />
+    <Button
+        android:id="@+id/button_chart3_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart3_2" />
+    <Button
+        android:id="@+id/button_chart3_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart3_3" />
+    <Button
+        android:id="@+id/button_chart3_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart3_4" />
+    <Button
+        android:id="@+id/button_chart4_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart4_1" />
+    <Button
+        android:id="@+id/button_chart4_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart4_2" />
+    <Button
+        android:id="@+id/button_chart6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart6" />
+    <Button
+        android:id="@+id/button_chart6_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart6_1" />
+    <Button
+        android:id="@+id/button_chart7_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart7_1" />
+
+    <Button
+        android:id="@+id/button_chart10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart10" />
+    <Button
+        android:id="@+id/button_chart10_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/chart10_1" />
+
+</LinearLayout>

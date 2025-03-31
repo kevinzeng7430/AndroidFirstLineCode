@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FirstLineAndroidCode</string>
+    <string name="T">TRUE</string>
+    <string name="F">FALSE</string>
+</resources>

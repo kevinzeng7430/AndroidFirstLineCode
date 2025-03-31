@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirstLineAndroidCode"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".DownloadTest.MHServiceMainActivity"
+            android:exported="true" />
+
+        <service
+            android:name=".DownloadTest.DownloadService"
+            android:enabled="true"
+            android:exported="true">
+
+        </service>
+
+        <activity
+            android:name=".chart10BindService.ServiceMainActivity"
+            android:exported="false" />
+
+        <service
+            android:name=".chart10BindService.BindMyService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".chart7Contactors.ContactMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SQLite.SQLiteMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart6.FileMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart5BroadcastReceiver.LoginSuccess"
+            android:exported="false" />
+        <activity
+            android:name=".chart5BroadcastReceiver.LoginActivity"
+            android:exported="true">
+
+            <!-- <intent-filter> -->
+            <!-- <action android:name="android.intent.action.MAIN" /> -->
+
+
+            <!-- <category android:name="android.intent.category.LAUNCHER" /> -->
+            <!-- </intent-filter> -->
+        </activity>
+        <activity
+            android:name=".chart5BroadcastReceiver.BroadcastReceiverBaseActivity"
+            android:exported="false" />
+
+        <receiver
+            android:name=".BootCompleteReceiver"
+            android:enabled="true"
+            android:exported="true"
+            tools:ignore="ExportedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name=".chart4News.NewsMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart4News.NewsTitleFragment"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".chart4News.NewsContentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart4Fragment.AnotherRightFragment"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".chart4Fragment.BasicChartFourActivity"
+            android:exported="false" />
+        <activity
+            android:name=".chart4Fragment.LeftFragment"
+            android:exported="false"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".chart3UIBestpractice.UIBestPractice"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity> <!-- 注册chart2.FirstActivity -->
+        <activity
+            android:name=".chart2.FirstActivity"
+            android:exported="true" /> <!-- chart2 SecondActivity的隐式Intent -->
+        <activity
+            android:name=".chart2.SecondActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="https" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".chart3.ListViewTest"
+            android:exported="true" />
+        <activity
+            android:name=".chart3.RecycleViewTest"
+            android:exported="true" />
+        <activity
+            android:name=".chart3.RecycleViewTest2"
+            android:exported="false" />
+        <activity
+            android:name=".chart3.RecyclerViewTest3"
+            android:exported="false" />
+    </application>
+
+</manifest>
